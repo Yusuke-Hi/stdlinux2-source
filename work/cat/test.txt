@@ -1,0 +1,7 @@
+name	age	city
+Alice	25	Tokyo
+Bob	30	Osaka
+	indented line
+multiple		tabs	here
+tab at end	
+no tabs in this line
