@@ -10,10 +10,13 @@ int main(int argc, char* argv[]) {
     }
 
     int lines = 0;
-    int c;
+    int c, prev;
     while ((c = fgetc(f)) != EOF) {
       if (c == '\n') lines++;
+      prev = c;
     }
+
+    if (prev != '\n') lines++;
 
     printf("%d\n", lines);
     fclose(f);
